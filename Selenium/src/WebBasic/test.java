@@ -2,27 +2,17 @@ package WebBasic;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class test {
     public static void main(String[] args) {
-        //đường dẫn đến chromedriver
-        System.setProperty("webdriver.chrome.driver","D:\\Selenium_java\\Driver\\chromedriver.exe");
-
-        //desired capabilities
-        DesiredCapabilities caps = new DesiredCapabilities();
-        
-
-        //tạo driver với ChromeDriver
+        //create driver
         WebDriver driver = new ChromeDriver();
-
-        String url = "https://opensource-demo.orangehrmlive.com/";
+        //values
+        String url = "https://courses.letskodeit.com/practice";
         //load url
         driver.get(url);
-
-        WebElement element = driver.findElement(By.id("txtUsername"));
-        element.sendKeys("Admin");
+        //find element
+        driver.findElement(By.id("alertbtn")).click();
     }
 }
