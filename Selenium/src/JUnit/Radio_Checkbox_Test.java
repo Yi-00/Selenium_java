@@ -1,5 +1,6 @@
-//Thao tác với Radio và Checkbox
-//Udemy - 48
+//Radio, Checkbox : solution
+//Udemy - 49 - khó, xem lại
+//Ví dụ này làm về Radio, Checkbox làm tương tự
 
 package JUnit;
 
@@ -11,6 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -25,42 +27,40 @@ class Radio_Checkbox_Test {
         //create driver
         driver = new ChromeDriver();
         url = "https://courses.letskodeit.com/practice";
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
     }
 
     @Test
     void Radio_Checkbox() throws InterruptedException {
-        //find BMW Radio
-        WebElement bmw_radio = driver.findElement(By.id("bmwradio"));
-        bmw_radio.click();
+        //cách 1 : xpath: //input[@type="radio"]       :tìm tất cả Radio theo type
+        //cách tìm xpath bên trên không nên dùng, vì nếu page có nhiều Radio, thì sẽ lấy tất cả
+        //cách 2 : xpath: //input[contains(@type,"radio")and contains(@name,"cars")]
 
-        Thread.sleep(2000);
+        //isCheck = false: là chưa được select
+        boolean isCheck = false;
 
-        //find  Benz Radio
-        WebElement benz_radio = driver.findElement(By.id("benzradio"));
-        benz_radio.click();
+        //Create a list, findElements thêm "s"
+        List<WebElement> radioButtons = driver.findElements(By.xpath("//input[contains(@type,\"radio\")and contains(@name,\"cars\")]"));
+        //size() : size của list???
+        int size = radioButtons.size();
 
-        Thread.sleep(2000);
+        System.out.println("Colection: "+ size);
 
-        //find BMW Checkbox
-        WebElement bmw_check = driver.findElement(By.id("bmwcheck"));
-        bmw_check.click();
-
-        Thread.sleep(2000);
-
-        //find Benz Checkbox
-        WebElement benz_check = driver.findElement(By.id("benzcheck"));
-        benz_check.click();
-
-        //kiểm tra element benz_check có được select hay thông qua : isSelected()
-        System.out.println("Benz checkbox: " + benz_check.isSelected());
+        //nếu chưa select thì click, còn select rồi thì bỏ qua
+        for(int i = 0; i < size; i++){
+             isCheck = radioButtons.get(i).isSelected();
+             //nếu chưa được select thì click
+             if(!isCheck){
+                 radioButtons.get(i).click();
+                 Thread.sleep(2000);
+             }
+        }
     }
 
+
     @AfterEach
-    void tearDown() throws InterruptedException {
-        Thread.sleep(3000);
-        driver.quit();
+    void tearDown() {
     }
 }
