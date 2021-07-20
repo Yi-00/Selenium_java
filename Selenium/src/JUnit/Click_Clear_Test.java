@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class JUnit_02Test {
+class Click_Clear_Test {
 
     WebDriver driver;
     String url = "https://opensource-demo.orangehrmlive.com/";

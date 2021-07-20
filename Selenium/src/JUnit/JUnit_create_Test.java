@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class JUnit_01Test {
+class JUnit_create_Test {
 
 
     //setUp
