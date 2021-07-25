@@ -1,5 +1,5 @@
 //Radio, Checkbox : solution
-//Udemy - 49 - khó, xem lại
+//Udemy - 49 - xem lại
 //Ví dụ này làm về Radio, Checkbox làm tương tự
 
 package JUnit;
