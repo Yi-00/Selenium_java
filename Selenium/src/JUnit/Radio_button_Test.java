@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Radio_Checkbox_Test {
+class Radio_button_Test {
 
     WebDriver driver;
     String url;
@@ -33,7 +33,7 @@ class Radio_Checkbox_Test {
     }
 
     @Test
-    void Radio_Checkbox() throws InterruptedException {
+    void Radio_button() throws InterruptedException {
         //cách 1 : xpath: //input[@type="radio"]       :tìm tất cả Radio theo type
         //cách tìm xpath bên trên không nên dùng, vì nếu page có nhiều Radio, thì sẽ lấy tất cả
         //cách 2 : xpath: //input[contains(@type,"radio")and contains(@name,"cars")]

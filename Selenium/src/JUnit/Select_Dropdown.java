@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Select_Dropdown_menu {
+public class Select_Dropdown {
     WebDriver driver;
     String url;
 
@@ -35,6 +35,7 @@ public class Select_Dropdown_menu {
     void testDropdown() throws InterruptedException {
         //Tìm id select
         WebElement ele_select = driver.findElement(By.id("carselect"));
+
         //Thông qua Select() tạo định nghĩa đối tượng sel
         Select sel = new Select(ele_select);
 
@@ -53,7 +54,14 @@ public class Select_Dropdown_menu {
         System.out.println("Select Honda by value");
         sel.selectByValue("honda");
 
-        //
+        //getOptions()   : Lấy tập hợp list
+        Thread.sleep(3000);
+        System.out.println("Print the list of all options");
+        List<WebElement> options = sel.getOptions();
+        int size = options.size();
+        for(int i = 0; i < size ; i++){
+            System.out.println(options.get(i).getText());
+        }
     }
 
     @AfterEach
