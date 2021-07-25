@@ -1,21 +1,27 @@
 package WebBasic;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.Scanner;
 
 public class test {
-    public static void main(String[] args) {
-//        System.setProperty("webdriver.chrome.driver", "D:\\Selenium_java\\Driver\\chromedriver.exe");
-        //create driver
-        WebDriver driver = new ChromeDriver();
-        //values
-        String url = "https://opensource-demo.orangehrmlive.com/";
+        public static void main(String[] args) {
+            String discode ="testing";
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Nhap vao discount code: ");
+            String code= sc.nextLine();
+            String app=code.toUpperCase();
+            float sub=10;
+            float discount=5;
+            double ship= 4.99;
 
-        //load url
-        driver.get(url);
-        //find element
-        driver.findElement(By.id("txtUsername")).sendKeys("AAAA");
-    }
-}
+            if(code.equalsIgnoreCase(discode) && app.equals("TESTING")){
+                System.out.println("a True");
+            }else{
+                System.out.println("a False");
+            }
+            if(code.equals(discode) && (sub-discount+ship)==9.99){
+                System.out.println("b True");
+            }else{
+                System.out.println("b False");
+            }
+
+        }}
