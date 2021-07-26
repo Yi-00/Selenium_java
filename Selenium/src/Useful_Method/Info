@@ -1,0 +1,4 @@
+//Udemy - 58
+- Đóng gói các method lại với nhau
+ ( bình thường sẽ gộp tạo driver, load url, find element... vào trong 1 file
+ -> sẽ gây khó khăn khi cần remain ) -> nên tách và đóng gói riêng từng mục
