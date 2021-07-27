@@ -10,8 +10,13 @@ import java.util.List;
 import java.util.Locale;
 
 public class GenericMethod {
-    WebDriver driver;
+    private WebDriver driver;
 
+    //Constructor no param
+    public GenericMethod() {
+    }
+
+    //Constructor have param
     //Định nghĩa đối tượng tên "GenericMethd" mở driver  ???
     public GenericMethod(WebDriver driver){
         this.driver = driver;              //Gán driver
@@ -50,5 +55,13 @@ public class GenericMethod {
             return null;
         }
         //Các cách tìm findElement khác(class, linkText,...) tự làm thêm
+    }
+
+    public WebDriver getDriver() {
+        return driver;
+    }
+
+    public void setDriver(WebDriver driver) {
+        this.driver = driver;
     }
 }
