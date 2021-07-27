@@ -36,7 +36,7 @@ public class explicitWait_with_WaitTime_02 {
         //Step 2:
         WebElement ele = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("search_query_top")));
         ele.sendKeys("xxxx");*/
-        
+
     }
 
     @AfterEach
