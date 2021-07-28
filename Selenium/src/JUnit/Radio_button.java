@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Radio_button_Test {
+class Radio_button {
 
     WebDriver driver;
     String url;
