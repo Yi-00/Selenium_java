@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Firefox_Driver_Demo {
     public static void main(String[] args) {
         //path to geckodriver
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\Admin\\Desktop\\QA\\Selenium_java\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.gecko.driver","C:\\QA\\Selenium_java\\Driver\\geckodriver.exe");
         //create driver
         WebDriver driver = new FirefoxDriver();
 
