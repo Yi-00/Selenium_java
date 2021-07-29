@@ -12,7 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class DesiredCapabilitiesDemo {
     public static void main(String[] args) {
         //đường dẫn đến chromedriver
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Desktop\\QA\\Selenium_java\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\QA\\Selenium_java\\Driver\\chromedriver.exe");
 
         //desired capabilities
         DesiredCapabilities caps = new DesiredCapabilities();

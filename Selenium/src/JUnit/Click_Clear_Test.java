@@ -22,6 +22,7 @@ class Click_Clear_Test {
     @BeforeEach
     void setUp() {
         //create driver
+
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         //waiting 10 second
