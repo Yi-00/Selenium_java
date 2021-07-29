@@ -43,7 +43,6 @@ class JavaScript_Execution {
         WebElement ele_search = driver.findElement(By.id("search_query_top"));
         ele_search.sendKeys("T-Shirt");
 
-
     }
 
     @AfterEach
