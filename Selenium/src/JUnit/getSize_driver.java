@@ -1,12 +1,14 @@
+package JUnit;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class test {
+public class getSize_driver {
+
     WebDriver driver;
-    String url;
 
     @BeforeEach
     void setUp() {
@@ -14,14 +16,14 @@ public class test {
     }
 
     @Test
-    void test(){
+    void getSize_driver(){
         //getHeight
         double size = driver.manage().window().getSize().getHeight();
         System.out.println(size);
 
-
+        //getWidth
+        System.out.println(driver.manage().window().getSize().getWidth());
     }
-
 
     @AfterEach
     void tearDown() {
