@@ -1,3 +1,6 @@
+//Lấy height, width của cửa sổ bằng driver
+//nếu muốn lấy theo Javascript - xem Udemy: 74
+
 package JUnit;
 
 import org.junit.jupiter.api.AfterEach;
