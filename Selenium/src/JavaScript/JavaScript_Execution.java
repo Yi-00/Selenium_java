@@ -1,3 +1,7 @@
+//Udemy : 73    -   Hay + xem lại
+//Sử dụng JavaScripExecutor : load url, find element
+
+
 package JavaScript;
 
 import org.junit.jupiter.api.AfterEach;
@@ -21,7 +25,6 @@ class JavaScript_Execution {
     @BeforeEach
     void setUp() {
         url = "http://automationpractice.com/index.php";
-        System.setProperty("webdriver.chrome.driver","C:\\QA\\Selenium_java\\Driver\\chromedriver.exe");
         //Create driver
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -33,16 +36,24 @@ class JavaScript_Execution {
     }
 
     @Test
-    void testJavaScrip(){
-        //Load url
+    void testJavaScrip() throws InterruptedException {
+        //Load url : normal
         driver.get(url);
 
+        //Load url from Javascript
         js.executeScript("window.location = 'http://automationpractice.com/index.php';");
 
-        //findElement: search input
-        WebElement ele_search = driver.findElement(By.id("search_query_top"));
-        ele_search.sendKeys("T-Shirt");
+        Thread.sleep(3000);
 
+/*        //findElement: normal
+        WebElement ele_search = driver.findElement(By.id("search_query_top"));
+        ele_search.sendKeys("T-Shirt");*/
+
+        //use Javascript find element
+        WebElement ele_search = (WebElement) js.executeScript("return document.getElementById('search_query_top');");
+
+        //sendKeys()
+        ele_search.sendKeys("T-shirt");
     }
 
     @AfterEach
