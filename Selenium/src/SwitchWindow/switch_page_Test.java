@@ -1,7 +1,7 @@
 //Switch page:  udemy - 46
 //Switch page, back(), forward(), refresh(), to(url)
 
-package JUnit;
+package SwitchWindow;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -37,15 +37,15 @@ class switch_page_Test {
         String login_url = "http://automationpractice.com/index.php?controller=authentication&back=my-account";
         driver.navigate().to(login_url);
 
-        //Quay về trang trước
+        //Quay về trang trước : back()
         Thread.sleep(5000);
         driver.navigate().back();
 
-        //Quay về trang vừa rồi
+        //Quay về trang vừa rồi  :  forward()
         Thread.sleep(5000);
         driver.navigate().forward();
 
-        //refresh page
+        //refresh page  : refresh()
         Thread.sleep(2000);
         driver.navigate().refresh();
 
