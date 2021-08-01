@@ -37,7 +37,6 @@ public class Switch_window {
 
         //.getWindowHandle()   : Lấy ID cửa sổ đang thao tác
         String perentHandle = driver.getWindowHandle();
-        System.out.println(perentHandle);
 
         //mở 1 cửa sổ mới
         Thread.sleep(3000);
@@ -45,16 +44,23 @@ public class Switch_window {
 
         // .getWindowHandles  có "s" : lấy ID của tất cả các cửa sổ
         Set<String> handles = driver.getWindowHandles();
+
         for(String handle : handles){
-            System.out.println(handle);
+            System.out.println(handle);      //in ra tất cả các ID handln tìm được
             //Switch window :  Đổi cửa sổ ,  trong trường hợp đa .getWindowHandle()
-            //Nếu ID cửa sổ hiện tại không bằng perenHandle thì sẽ bằng handle còn lại
-            if(!handle.equals(perentHandle)){
+            //Nếu ID cửa sổ hiện tại (perenHandle) khác với ID handle thì sẽ switchTo() handle đó
+            if(!perentHandle.equals(handle)){      //Chú ý: có dấu chấm than
                 driver.switchTo().window(handle);
                 Thread.sleep(3000);
                 //find link "ALL COURSES"
                 WebElement link_ele = driver.findElement(By.xpath("//*[@id=\"navbar-inverse-collapse\"]/ul/li[2]/a"));
                 link_ele.click();
+
+                //Sau khi click xong, đợi 3s và đóng cửa sổ (handle) đó lại
+                Thread.sleep(3000);
+                driver.close();
+
+                break;     //Chỉ click 1 lần
             }
         }
 
@@ -64,6 +70,7 @@ public class Switch_window {
     @AfterEach
     void tearDown() throws InterruptedException {
         Thread.sleep(3000);
-        driver.quit();
+//        driver.close();
+//        driver.quit();
     }
 }

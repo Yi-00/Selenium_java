@@ -1,17 +1,19 @@
-import java.util.concurrent.TimeUnit;
+//Udemy: 78: 5p
+//Thay đổi giữa các tab
 
-import org.junit.After;
-import org.junit.Before;
+package SwitchWindow;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class test {
+import java.util.concurrent.TimeUnit;
+
+public class Switch_tab {
     WebDriver driver;
     String url;
 
@@ -20,22 +22,24 @@ public class test {
         driver = new ChromeDriver();
         url = "https://courses.letskodeit.com/practice";
 
-        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
-    void switchWindow() throws InterruptedException {
-        driver.get(url);    //Load url
+    void switchTab() throws InterruptedException {
+        driver.get(url);
 
         //find present window handle
         String presentHandle = driver.getWindowHandle();
 
         Thread.sleep(3000);
-        WebElement btn_ele = driver.findElement(By.xpath("//button[@id=\"openwindow\"]"));
-        btn_ele.click();
+        //find "Open tab" button
+        WebElement openTab = driver.findElement(By.id("opentab"));
+        //click để mở tab mới
+        openTab.click();
 
-        //find all window handle
+        //Switch về window handle ban đầu
+        driver.switchTo().window(presentHandle);
 
     }
 
