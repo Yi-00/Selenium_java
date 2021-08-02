@@ -36,10 +36,12 @@ public class KeyPressDemo01 {
         WebElement search_ele = driver.findElement(By.xpath("//input[contains(@id,\"search_query_top\")]"));
         search_ele.sendKeys("T-shirt");
         Thread.sleep(3000);
-        search_ele.sendKeys(Keys.ENTER);        //press Enter on keyboard
+        search_ele.sendKeys(Keys.ENTER);        //press Enter on the keyboard
     }
 
     @AfterEach
-    void tearDown() {
+    void tearDown() throws InterruptedException {
+        Thread.sleep(3000);
+        driver.quit();
     }
 }
