@@ -33,7 +33,7 @@ public class Ctrl {
         search_ele.sendKeys("aaa");
         Thread.sleep(2000);
         //Ctrl + ...
-        search_ele.sendKeys(Keys.CONTROL,"a");   //Ctrl + A: select all
+        search_ele.sendKeys(Keys.CONTROL+"a");   //Ctrl + A: select all
         Thread.sleep(2000);
         search_ele.sendKeys(Keys.CONTROL,"C");   //Ctrl + C: copy all
         Thread.sleep(2000);
