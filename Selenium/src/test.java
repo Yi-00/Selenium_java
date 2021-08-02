@@ -1,45 +1,54 @@
-import java.util.concurrent.TimeUnit;
-
+;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 public class test {
-    WebDriver driver;
-    String url;
 
-    @BeforeEach
-    void setUp() {
+    private WebDriver driver;
+    private String baseUrl;
+
+    @Before
+    public void setUp() throws Exception {
         driver = new ChromeDriver();
-        url = "https://courses.letskodeit.com/practice";
+        baseUrl = "https://courses.letskodeit.com/practice";
 
+        // Maximize the browser's window
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        driver.get(baseUrl);
     }
 
     @Test
-    void switchWindow() throws InterruptedException {
-        driver.get(url);    //Load url
-
-        //find present window handle
-        String presentHandle = driver.getWindowHandle();
-
+    public void test1() throws InterruptedException {
+        driver.findElement(By.id("name")).sendKeys("Sunny");
+        driver.findElement(By.id("alertbtn")).click();
         Thread.sleep(3000);
-        WebElement btn_ele = driver.findElement(By.xpath("//button[@id=\"openwindow\"]"));
-        btn_ele.click();
-
-        //find all window handle
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
 
     }
 
-    @AfterEach
-    void tearDown() {
+    @Test
+    public void test2() throws InterruptedException {
+        driver.findElement(By.id("name")).sendKeys("Sunny");
+        driver.findElement(By.id("confirmbtn")).click();
+        Thread.sleep(3000);
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+//		alert.dismiss();
+    }
+
+    @After
+    public void tearDown() throws Exception {
+        Thread.sleep(2000);
+        driver.quit();
     }
 }
+
