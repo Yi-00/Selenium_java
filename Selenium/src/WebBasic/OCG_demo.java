@@ -1,6 +1,8 @@
 package WebBasic;
 
+import org.junit.Assert;
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -25,8 +27,27 @@ public class OCG_demo {
 
     @Test
     void test(){
+        driver.get("http://automationpractice.com/index.php");
         String pageTitle = driver.getTitle();
-        
+        System.out.println(pageTitle);
+
+        Assertions.assertEquals("My Store", pageTitle, "Not equal");
+
+        //click Sign in
+        clickElement("//div[@class=\"header_user_info\"]/a");
+
+        //enter email
+        inputToElement("//input[@id=\"email\"]", "duc864@qq.com");
+
+        //enter password
+        inputToElement("//input[@id=\"passwd\"]", "test1234");
+
+        //click Sign in button
+        clickElement("//button[@id=\"SubmitLogin\"]");
+
+        //Kiểm tra email, password có lỗi hay không
+        String msg = getElementText("//*[@id=\"center_column\"]/div[1]/p");
+        Assertions.assertEquals("There is 1 error", msg, "This Test Passed");
     }
 
     public WebElement getElement(String xpath){
@@ -56,7 +77,8 @@ public class OCG_demo {
     }
 
     @AfterEach
-    void tearDown() {
+    void tearDown() throws InterruptedException {
+        Thread.sleep(3000);
         driver.quit();
     }
 }
