@@ -1,6 +1,6 @@
 //Radio, Checkbox : solution
 //Udemy - 49 - xem lại
-//Ví dụ này làm về Radio, Checkbox làm tương tự
+//Ví dụ này làm về Radio, Checkbox làm tương tự ( nhưng checkbox có thể hủy sau khi chọn )
 
 package JUnit;
 
@@ -29,14 +29,15 @@ class Radio_button {
         url = "https://courses.letskodeit.com/practice";
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(url);
     }
 
     @Test
     void Radio_button() throws InterruptedException {
+        driver.get(url);
+
         //cách 1 : xpath: //input[@type="radio"]       :tìm tất cả Radio theo type
         //cách tìm xpath bên trên không nên dùng, vì nếu page có nhiều Radio, thì sẽ lấy tất cả
-        //cách 2 : xpath: //input[contains(@type,"radio")and contains(@name,"cars")]
+        //cách 2 : xpath: //input[contains(@type,"radio") and contains(@name,"cars")]
 
         //isCheck = false: là chưa được select
         boolean isCheck = false;
