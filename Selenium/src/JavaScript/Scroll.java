@@ -25,7 +25,7 @@ public class Scroll {
     void setUp() {
         //Create driver
         driver = new ChromeDriver();
-        url = "https://courses.letskodeit.com/practice";
+        url = "http://demo.guru99.com/test/guru99home/";
 
 
         //Step 2: Convert kiểu dữ liệu của driver từ WebDriver -> JavascriptExecutor
@@ -50,22 +50,17 @@ public class Scroll {
         js.executeScript("window.scrollBy(0, -900);");
         Thread.sleep(2000);
 
-        //Tìm đến ô Search input
-        WebElement ele = driver.findElement(By.xpath("//input[@id=\"search\"]"));
+        //Find element by link text and store in variable "Element"
+        WebElement Element = driver.findElement(By.linkText("Linux"));
 
-        //cuận đến ele mong muốn    : chưa làm được
-//        js.executeScript("arguments[0].scrollIntoView(true);", ele);
-
-
-        ele.sendKeys("Python");
-
-        //Click icon search
-        driver.findElement(By.xpath("//*[@id=\"search\"]/div/button")).click();
+        //This will scroll the page till the element is found
+        js.executeScript("arguments[0].scrollIntoView();", Element);
     }
 
 
     @AfterEach
-    void tearDown() {
+    void tearDown() throws InterruptedException {
+        Thread.sleep(3000);
         driver.quit();
     }
 }
