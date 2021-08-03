@@ -54,7 +54,7 @@ public class Scroll {
         WebElement ele = driver.findElement(By.xpath("//input[@id=\"search\"]"));
 
         //cuận đến ele mong muốn    : chưa làm được
-        js.executeScript("arguments[0].scrollIntoView(true);", ele);
+//        js.executeScript("arguments[0].scrollIntoView(true);", ele);
 
 
         ele.sendKeys("Python");
