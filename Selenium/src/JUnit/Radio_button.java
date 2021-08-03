@@ -39,8 +39,9 @@ class Radio_button {
         //cách tìm xpath bên trên không nên dùng, vì nếu page có nhiều Radio, thì sẽ lấy tất cả
         //cách 2 : xpath: //input[contains(@type,"radio") and contains(@name,"cars")]
 
-        //isCheck = false: là chưa được select
-        boolean isCheck = false;
+        //Khai báo cách 1: isCheck = false/true: là chưa được select
+        //Khai báo cách 2: ( bên dưới )
+        boolean isCheck;
 
         //Create a list, findElements thêm "s"
         List<WebElement> radioButtons = driver.findElements(By.xpath("//input[contains(@type,\"radio\")and contains(@name,\"cars\")]"));
@@ -51,7 +52,7 @@ class Radio_button {
 
         //nếu chưa select thì click, còn select rồi thì bỏ qua
         for(int i = 0; i < size; i++){
-             isCheck = radioButtons.get(i).isSelected();
+             isCheck = radioButtons.get(i).isSelected();    //Gán phần tử thứ i của radioButtons là đã được select = isCheck
              //nếu chưa được select thì click
              if(!isCheck){
                  radioButtons.get(i).click();
