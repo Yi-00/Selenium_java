@@ -22,7 +22,6 @@ class isEnable_Test {
 
     @BeforeEach
     void setUp() {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Desktop\\QA\\Selenium_java\\Driver\\chromedriver.exe");
         //create
         driver = new ChromeDriver();
         url = "https://opensource-demo.orangehrmlive.com/";

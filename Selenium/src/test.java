@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,48 +18,38 @@ public class test {
     @BeforeEach
     void setUp() {
         driver = new ChromeDriver();
-        url = "https://opensource-demo.orangehrmlive.com/";
+        url = "https://courses.letskodeit.com/practice";
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
-    void testWeb(){
-        //Load url
+    void testWeb() throws InterruptedException {
         driver.get(url);
 
-        //input email
-        inputValue("//input[@id='txtUsername']", "Admin");
+        clickElement("//input[@id='alertbtn']");
 
-        //input password
-        inputValue("//input[@id='txtPassword']", "admin123");
 
-        //click login btn
-        clickBtn("//input[@id='btnLogin']");
+        Thread.sleep(3000);
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
     }
 
-    //Wait time
+    //wait time
     public void waitTime(String xpath){
         WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath(xpath)));
     }
 
-    //getElement
+    //find element
     public WebElement getElement(String xpath){
+        waitTime(xpath);
         return driver.findElement(By.xpath(xpath));
     }
 
-    //senKeys
-    public void inputValue(String xpath, String value){
-        waitTime(xpath);
-        WebElement e = getElement(xpath);
-        e.clear();
-        e.sendKeys(value);
-    }
-
     //click
-    public void clickBtn(String xpath){
+    public void clickElement(String xpath){
         waitTime(xpath);
         getElement(xpath).click();
     }

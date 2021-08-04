@@ -15,7 +15,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Hide_element {
+class isDisplayed_Test {
         WebDriver driver;
         String url;
 
