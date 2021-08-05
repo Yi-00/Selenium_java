@@ -14,7 +14,11 @@ import java.util.concurrent.TimeUnit;
 
 public class test {
     public static void main(String[] args) {
-        HashMap<String, List<String>> discount = new HashMap<>();
-//        discount.put("Sale of 10 %", asList("Percentage", "10%"));
+        for(int i=0; i<=5;i++){
+            for(int j=i;j>0;j--){
+                System.out.println(i);
+            }
+            System.out.println();
+        }
     }
 }
