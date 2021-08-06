@@ -1,4 +1,4 @@
-//Tách riêng các mục findElement, test,....  Udemy: 89-93
+//Tách riêng các mục findElement, test,....  Udemy: 90
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -23,7 +23,7 @@ public class PageObjectModel {
 
     @Test
     void test(){
-        
+        driver.get(baseUrl);
     }
 
 
