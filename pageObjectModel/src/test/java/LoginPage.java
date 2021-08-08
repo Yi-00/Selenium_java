@@ -6,6 +6,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pageClass.Execute;
 
 import java.util.concurrent.TimeUnit;
 
@@ -28,11 +29,11 @@ public class LoginPage {
         driver.get(baseUrl);
 
         //find and input Username
-        pageClass.Execute.inputValue(driver, "//input[@id='txtUsername']", "Admin");
+        Execute.inputValue(driver, "//input[@id='txtUsername']", "Admin");
         //find and input Password
-        pageClass.Execute.inputValue(driver, "//input[@id='txtPassword']", "admin123");
+        Execute.inputValue(driver, "//input[@id='txtPassword']", "admin123");
         //click login button
-        pageClass.Execute.clickLogin(driver, "//input[@id='btnLogin']");
+        Execute.clickLogin(driver, "//input[@id='btnLogin']");
     }
 
     @AfterEach
