@@ -2,6 +2,7 @@
 //Giao diện Login page
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +32,7 @@ public class LoginPage {
         //find and input Username
         Execute.inputValue(driver, "//input[@id='txtUsername']", "Admin");
         //find and input Password
-        Execute.inputValue(driver, "//input[@id='txtPassword']", "admin123");
+        Execute.inputValue(driver, "//input[@id='txtPassword']", "admin1231");
         //click login button
         Execute.clickLogin(driver, "//input[@id='btnLogin']");
     }
