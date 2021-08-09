@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SoftAssert_Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SoftAssert_Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +50,19 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="TestSuite_Demo" />
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TestSuite_Demo" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.SoftAssert_Demo.test">
+  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/testng.xml">
     <configuration name="Assert_Demo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Assert_Demo" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Assert_Demo.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Assert_Demo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -81,6 +75,16 @@
       <option name="MAIN_CLASS_NAME" value="Assert_Demo" />
       <option name="METHOD_NAME" value="testArray" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/QA/Selenium_java/TestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
         <item itemvalue="TestNG.SoftAssert_Demo.test" />
         <item itemvalue="TestNG.SoftAssert_Demo" />
         <item itemvalue="TestNG.Assert_Demo" />
         <item itemvalue="TestNG.Assert_Demo.testArray" />
-        <item itemvalue="TestNG.Assert_Demo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
-      <workItem from="1628477300833" duration="12772000" />
+      <workItem from="1628477300833" duration="13840000" />
     </task>
     <servers />
   </component>

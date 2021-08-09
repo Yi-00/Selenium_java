@@ -3,8 +3,7 @@
 <!--Tên test-->
     <test name = "Application Test">
 <!--Tên các class nào sẽ chạy-->
-        <classes>
-
-        </classes>
+        <classes name = "TestNG.src.test.java.TestSuite_Demo.Class01"></classes>
+        <classes name = "TestNG.src.test.java.TestSuite_Demo.Class02"></classes>
     </test>
 </suite>

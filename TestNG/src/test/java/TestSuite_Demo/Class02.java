@@ -11,7 +11,7 @@ public class Class02 {
     @BeforeMethod
     public void setUp() {
     }
-    
+
     @Test
     public void test(){
         System.out.println("---Class Demo 02---");
