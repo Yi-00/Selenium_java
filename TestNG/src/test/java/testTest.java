@@ -23,6 +23,12 @@ public class testTest {
         Thread.sleep(3000);
     }
 
+    @Test
+    public void atest() throws InterruptedException {
+        driver.get("https://opensource-demo.orangehrmlive.com/");
+        Thread.sleep(3000);
+    }
+
 
     @AfterMethod
     public void tearDown() throws InterruptedException {

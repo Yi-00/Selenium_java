@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pageObjectModel/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pageObjectModel/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pageObjectModel/pageObjectModel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pageObjectModel/target/test-classes/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pageObjectModel/target/test-classes/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +52,42 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.testTest.test">
+  <component name="RunManager" selected="TestNG.Assert_Demo">
+    <configuration name="Assert_Demo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assert_Demo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assert_Demo.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assert_Demo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assert_Demo.testArray" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Assert_Demo" />
+      <option name="METHOD_NAME" value="testArray" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,6 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Assert_Demo" />
+        <item itemvalue="TestNG.Assert_Demo.testArray" />
+        <item itemvalue="TestNG.Assert_Demo.test" />
         <item itemvalue="TestNG.testTest.test" />
         <item itemvalue="TestNG.testTest" />
       </list>
@@ -93,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
-      <workItem from="1628477300833" duration="3981000" />
+      <workItem from="1628477300833" duration="8491000" />
     </task>
     <servers />
   </component>
