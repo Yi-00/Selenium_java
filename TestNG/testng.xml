@@ -1,0 +1,10 @@
+<!--Tên suite-->
+<suite name = "Regression Suite">
+<!--Tên test-->
+    <test name = "Application Test">
+<!--Tên các class nào sẽ chạy-->
+        <classes>
+
+        </classes>
+    </test>
+</suite>
