@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regression_group.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG_Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG_Group.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <recent name="TestSuite_Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNG_Group">
+  <component name="RunManager" selected="TestNG.expensive">
     <configuration name="C:/QA/Selenium_java/TestNG/regression_group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_group.xml" />
@@ -90,11 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Group" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="bikes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNG_Group" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="bikes" />
+      <option name="TEST_OBJECT" value="GROUP" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cars" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="expensive" type="TestNG" nameIsGenerated="true">
       <module name="TestNG" />
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -128,7 +133,7 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="cars" />
+      <option name="GROUP_NAME" value="expensive" />
       <option name="TEST_OBJECT" value="GROUP" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -140,16 +145,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="TestNG.expensive" />
       <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
       <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
       <item itemvalue="TestNG.Priority_Demo" />
-      <item itemvalue="TestNG.cars" />
-      <item itemvalue="TestNG.TestNG_Group" />
+      <item itemvalue="TestNG.bikes" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestNG_Group" />
-        <item itemvalue="TestNG.cars" />
+        <item itemvalue="TestNG.bikes" />
         <item itemvalue="TestNG.cars" />
         <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
         <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
@@ -164,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
-      <workItem from="1628477300833" duration="21685000" />
+      <workItem from="1628477300833" duration="24525000" />
     </task>
     <servers />
   </component>
