@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/regression_group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG_Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG_Group.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
       <list>
         <option value="TestNG Test Class" />
         <option value="Class" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -38,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/testng-6.11-sources.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/testng-7.4.0.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,7 +58,7 @@
       <recent name="TestSuite_Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml">
+  <component name="RunManager" selected="TestNG.TestNG_Group">
     <configuration name="C:/QA/Selenium_java/TestNG/regression_group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_group.xml" />
@@ -87,18 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority_Demo.test03" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Priority_Demo" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestNG_Group" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,13 +101,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="cars" />
+      <option name="TEST_OBJECT" value="GROUP" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cars" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="cars" />
+      <option name="TEST_OBJECT" value="GROUP" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
+      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
+      <item itemvalue="TestNG.Priority_Demo" />
+      <item itemvalue="TestNG.cars" />
+      <item itemvalue="TestNG.TestNG_Group" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNG_Group" />
+        <item itemvalue="TestNG.cars" />
+        <item itemvalue="TestNG.cars" />
         <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
         <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
-        <item itemvalue="TestNG.TestNG_Group" />
-        <item itemvalue="TestNG.Priority_Demo" />
-        <item itemvalue="TestNG.Priority_Demo.test03" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
-      <workItem from="1628477300833" duration="18646000" />
+      <workItem from="1628477300833" duration="21685000" />
     </task>
     <servers />
   </component>

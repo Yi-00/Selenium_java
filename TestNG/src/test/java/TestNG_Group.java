@@ -18,7 +18,7 @@ public class TestNG_Group {
     }
 
     //test này trong 2 nhóm tên: cars và cheap
-    @Test(groups = {"cars", "cheap"})
+    @Test(groups = {"cars"})
     public void testHonda(){
         System.out.println("Running test - Honda");
     }
