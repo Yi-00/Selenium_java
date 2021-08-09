@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pageObjectModel/pom.xml" />
+        <option value="$PROJECT_DIR$/TestNG/pom.xml" />
       </list>
     </option>
   </component>
