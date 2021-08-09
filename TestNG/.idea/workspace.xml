@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Assert_Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Assert_Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Assert_Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Assert_Demo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Assert_Demo">
+  <component name="RunManager" selected="TestNG.SoftAssert_Demo.test">
     <configuration name="Assert_Demo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,10 +87,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAssert_Demo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testTest" />
+      <option name="MAIN_CLASS_NAME" value="SoftAssert_Demo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,10 +98,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAssert_Demo.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="testTest" />
+      <option name="MAIN_CLASS_NAME" value="SoftAssert_Demo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SoftAssert_Demo.test" />
+        <item itemvalue="TestNG.SoftAssert_Demo" />
         <item itemvalue="TestNG.Assert_Demo" />
         <item itemvalue="TestNG.Assert_Demo.testArray" />
         <item itemvalue="TestNG.Assert_Demo.test" />
-        <item itemvalue="TestNG.testTest.test" />
-        <item itemvalue="TestNG.testTest" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
-      <workItem from="1628477300833" duration="8853000" />
+      <workItem from="1628477300833" duration="10323000" />
     </task>
     <servers />
   </component>
