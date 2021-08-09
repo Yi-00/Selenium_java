@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/testng-6.11-sources.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -55,7 +56,17 @@
       <recent name="TestSuite_Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Priority_Demo">
+  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml">
+    <configuration name="C:/QA/Selenium_java/TestNG/regression_group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_group.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/QA/Selenium_java/TestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -77,18 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority_Demo.test02" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Priority_Demo" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Priority_Demo.test03" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,12 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SoftAssert_Demo.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG_Group" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SoftAssert_Demo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="TestNG_Group" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
+        <item itemvalue="TestNG.TestNG_Group" />
         <item itemvalue="TestNG.Priority_Demo" />
         <item itemvalue="TestNG.Priority_Demo.test03" />
-        <item itemvalue="TestNG.Priority_Demo.test02" />
-        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
-        <item itemvalue="TestNG.SoftAssert_Demo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
-      <workItem from="1628477300833" duration="15680000" />
+      <workItem from="1628477300833" duration="17401000" />
     </task>
     <servers />
   </component>
