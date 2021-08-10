@@ -2,3 +2,19 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <!--Udemy: 113-->
+<suite name="Grouping">
+    <test name="Test 1">
+
+        <groups>
+            <run>
+                <!--Tên Group muốn chạy-->
+                <include name="Group1"></include>
+                <include name="bikes"></include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="TestNG_Group"></class>
+        </classes>
+    </test>
+</suite>
