@@ -24,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Demo_file.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1wTKmePBi5j826mayVs9KW6BD4I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -38,10 +41,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/testng-7.4.0.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testng.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -55,7 +59,17 @@
       <recent name="TestSuite_Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.expensive">
+  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/Demo_file.xml">
+    <configuration name="C:/QA/Selenium_java/TestNG/Demo_file.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Demo_file.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/QA/Selenium_java/TestNG/regression_group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_group.xml" />
@@ -68,19 +82,36 @@
     </configuration>
     <configuration name="C:/QA/Selenium_java/TestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Priority_Demo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/QA/Selenium_java/TestNG/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Priority_Demo" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -125,38 +156,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="expensive" type="TestNG" nameIsGenerated="true">
-      <module name="TestNG" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="expensive" />
-      <option name="TEST_OBJECT" value="GROUP" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.expensive" />
+      <item itemvalue="TestNG.cars" />
       <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
       <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
-      <item itemvalue="TestNG.Priority_Demo" />
       <item itemvalue="TestNG.bikes" />
+      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/Demo_file.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/Demo_file.xml" />
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
         <item itemvalue="TestNG.bikes" />
         <item itemvalue="TestNG.cars" />
         <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
-        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +181,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
-      <workItem from="1628477300833" duration="24525000" />
+      <workItem from="1628477300833" duration="24526000" />
+      <workItem from="1628551235730" duration="2795000" />
     </task>
     <servers />
   </component>
@@ -185,6 +199,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
