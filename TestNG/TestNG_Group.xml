@@ -6,10 +6,20 @@
     <test name="Test 1">
 
         <groups>
+            <!--define: Tạo nhóm Group muốn run    Udemy: 114-->
+            <define name="All">
+                <include name="cars"></include>
+                <include name="bikes"></include>
+                <include name="Group1"></include>
+            </define>
+
+            <define name="Bike">
+                <include name="bikes"></include>
+            </define>
+
             <run>
                 <!--Tên Group muốn chạy-->
-                <include name="Group1"></include>
-                <include name="bikes"></include>
+                <include name="Bike"></include>
             </run>
         </groups>
 

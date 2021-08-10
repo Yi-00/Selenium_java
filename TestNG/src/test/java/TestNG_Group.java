@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
  * Tạo nhóm khi test  ( thích hợp với regression testing )
  */
 public class TestNG_Group {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() {
     }
 
