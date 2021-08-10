@@ -11,20 +11,20 @@ public class TestNG_Group {
     public void setUp() {
     }
 
-    //Tạo nhóm: với 2 nhóm tên lần lượt là: cars và expensive
-    @Test(groups = {"cars", "expensive"})
+    //Tạo nhóm: với 2 nhóm tên lần lượt là: cars và Group1
+    @Test(groups = {"cars", "Group1"})
     public void testBMW(){
         System.out.println("Running test - BWM");
     }
 
-    //test này trong 2 nhóm tên: cars và cheap
+    //test này trong nhóm tên: cars
     @Test(groups = {"cars"})
     public void testHonda(){
         System.out.println("Running test - Honda");
     }
 
-    //Test này trong 2 nhóm tên cars và expensive
-    @Test(groups = {"cars", "expensive"})
+    //Test này trong 2 nhóm tên cars và Group1
+    @Test(groups = {"cars", "Group1"})
     public void testAudi(){
         System.out.println("Running test - Audi");
     }
