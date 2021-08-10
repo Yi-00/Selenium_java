@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 
 /**
  * Udemy: 109: TestSuite
+ * Giúp chạy được nhiều class 1 lúc
  */
 public class Class01 {
     @BeforeMethod

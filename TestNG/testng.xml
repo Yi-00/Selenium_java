@@ -1,9 +1,4 @@
-<!--Tên suite-->
-<suite name = "Regression Suite">
-<!--Tên test-->
-    <test name = "Application Test">
-<!--Tên các class nào sẽ chạy-->
-        <classes name = "TestSuite_Demo.Class01"></classes>
-        <classes name = "TestSuite_Demo.Class02"></classes>
-    </test>
-</suite>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+

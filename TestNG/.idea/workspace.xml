@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +28,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Demo_file.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Template_file.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1wTKmePBi5j826mayVs9KW6BD4I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -182,7 +185,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
       <workItem from="1628477300833" duration="24526000" />
-      <workItem from="1628551235730" duration="2795000" />
+      <workItem from="1628551235730" duration="4213000" />
     </task>
     <servers />
   </component>
