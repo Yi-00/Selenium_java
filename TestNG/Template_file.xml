@@ -1,7 +1,8 @@
-<!--Đây là file template demo-->
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--Đây là file template demo-->
+
 <!--Tên suite: tùy ý đặt-->
 <suite name="Group demo">
     <!--Tên test: tùy ý đặt-->
