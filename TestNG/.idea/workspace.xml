@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite_Demo/Class02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +62,10 @@
       <recent name="TestSuite_Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/Demo_file.xml">
-    <configuration name="C:/QA/Selenium_java/TestNG/Demo_file.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/TestSuite.xml">
+    <configuration name="C:/QA/Selenium_java/TestNG/TestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Demo_file.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/QA/Selenium_java/TestNG/regression_group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/regression_group.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuite.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -112,6 +102,25 @@
       <option name="METHOD_NAME" value="" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
@@ -161,18 +170,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.cars" />
-      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
       <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
       <item itemvalue="TestNG.bikes" />
-      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/Demo_file.xml" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/TestSuite.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/Demo_file.xml" />
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/TestSuite.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
         <item itemvalue="TestNG.bikes" />
         <item itemvalue="TestNG.cars" />
-        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/regression_group.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
       <workItem from="1628477300833" duration="24526000" />
-      <workItem from="1628551235730" duration="4213000" />
+      <workItem from="1628551235730" duration="6005000" />
     </task>
     <servers />
   </component>
