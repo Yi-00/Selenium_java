@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d10a3eff-0e4a-4197-950c-9a56865ac2ae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite_Demo/Class02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestSuite_Demo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628477298983</updated>
       <workItem from="1628477300833" duration="24526000" />
-      <workItem from="1628551235730" duration="6005000" />
+      <workItem from="1628551235730" duration="6346000" />
     </task>
     <servers />
   </component>
