@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--Udemy: 119-->
+<suite name="Parallel TestNG">
+    <test name="Test 1">
+        <classes>
+            
+        </classes>
+    </test>
+</suite>
