@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<!--Udemy: 119-->
-<suite name="Parallel TestNG">
+<!--Udemy: 119: học lại chưa học hết-->
+<suite name="Parallel TestNG" parallel="classes" thread-count="2">
     
     <test name="Test 1">
         <classes>
             <class name="Parallel_Demo.Parallel1_TestNG"></class>
         </classes>
     </test>
-    
+
     <test name="Test 2">
         <classes>
             <class name="Parallel_Demo.Parallel2_TestNG"></class>
