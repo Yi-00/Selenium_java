@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--Udemy: 118: Parameters-->
+<suite name="Parameters TestSuite">
+    <test name="Test 1">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="platform" value="window"></parameter>
+        <parameter name="response" value="201"></parameter>
+        <classes>
+            <class name="Parameters_TestNG"></class>
+        </classes>
+    </test>
+</suite>

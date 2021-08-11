@@ -16,8 +16,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TestNG Test Class" />
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,40 +59,21 @@
       <recent name="TestSuite_Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/TestNG_Group.xml">
+  <component name="RunManager" selected="TestNG.C:/QA/Selenium_java/TestNG/Parameters_testNG.xml">
+    <configuration name="C:/QA/Selenium_java/TestNG/Parameters_testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Parameters_testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/QA/Selenium_java/TestNG/TestNG_Group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG_Group.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/QA/Selenium_java/TestNG/TestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestSuite.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/QA/Selenium_java/TestNG/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -118,11 +99,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Group" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Parameters_TestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Parameters_TestNG" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG_Group.testAudi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestNG_Group" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="testAudi" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/TestSuite.xml" />
       <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/TestNG_Group.xml" />
-      <item itemvalue="TestNG.TestNG_Group" />
+      <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/Parameters_testNG.xml" />
+      <item itemvalue="TestNG.Parameters_TestNG" />
+      <item itemvalue="TestNG.TestNG_Group.testAudi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/TestNG_Group.xml" />
-        <item itemvalue="TestNG.TestNG_Group" />
-        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/TestSuite.xml" />
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/Parameters_testNG.xml" />
+        <item itemvalue="TestNG.TestNG_Group.testAudi" />
+        <item itemvalue="TestNG.Parameters_TestNG" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/testng.xml" />
+        <item itemvalue="TestNG.C:/QA/Selenium_java/TestNG/TestNG_Group.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +168,7 @@
       <updated>1628477298983</updated>
       <workItem from="1628477300833" duration="24526000" />
       <workItem from="1628551235730" duration="11664000" />
+      <workItem from="1628644311999" duration="4943000" />
     </task>
     <servers />
   </component>
