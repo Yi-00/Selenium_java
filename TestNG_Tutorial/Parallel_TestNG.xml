@@ -3,9 +3,16 @@
 
 <!--Udemy: 119-->
 <suite name="Parallel TestNG">
+    
     <test name="Test 1">
         <classes>
-            
+            <class name="Parallel_Demo.Parallel1_TestNG"></class>
+        </classes>
+    </test>
+    
+    <test name="Test 2">
+        <classes>
+            <class name="Parallel_Demo.Parallel2_TestNG"></class>
         </classes>
     </test>
 </suite>
