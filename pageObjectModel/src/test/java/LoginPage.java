@@ -2,12 +2,10 @@
 //Giao diện Login page
 
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import pageClass.Execute;
 
 import java.util.concurrent.TimeUnit;
 
@@ -30,6 +28,7 @@ public class LoginPage {
         driver.get(baseUrl);
 
         //find and input Username
+
         Execute.inputValue(driver, "//input[@id='txtUsername']", "Admin");
         //find and input Password
         Execute.inputValue(driver, "//input[@id='txtPassword']", "admin1231");

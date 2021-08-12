@@ -1,5 +1,3 @@
-package pageClass;////Tách riêng các mục findElement, test,....  Udemy: 90
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

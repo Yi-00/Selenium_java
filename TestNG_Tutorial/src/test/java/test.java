@@ -21,32 +21,12 @@ public class test {
 
     @Test
     public void loginTest(){
-        //enter user name
-        inputValue("//input[@id='txtUsername']", "Admin");
-        //enter password
-        inputValue("//input[@id='txtPassword']", "admin123");
-        //click login btn
-        clickBtn("//input[@id='btnLogin']");
+        LoginPage.inputValue(driver, "//input[@id='txtUsername']", "Admin");
+        LoginPage.inputValue(driver, "//input[@id='txtPassword']", "admin123");
+        LoginPage.clickElement(driver, "//input[@id='btnLogin']");
     }
 
     @AfterMethod
     public void tearDown() {
-    }
-
-    //find Element
-    public WebElement getElement(String xpath){
-        return getElement(xpath);
-    }
-
-    //input value
-    public void inputValue(String xpath, String value){
-        WebElement ele = getElement(xpath);
-        ele.clear();
-        ele.sendKeys(value);
-    }
-
-    //click login btn
-    public void clickBtn(String xpath){
-        getElement("//input[@id='btnLogin']").click();
     }
 }
