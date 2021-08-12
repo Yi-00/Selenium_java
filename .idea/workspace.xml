@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86ea4f5b-c657-4f74-a919-e001e33de510" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjectModel/pageObjectModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjectModel/pageObjectModel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG_Tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Tutorial/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG_Tutorial/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Tutorial/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestNG_Tutorial/target/test-classes/DataProviders_TestNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Tutorial/target/test-classes/DataProviders_TestNG.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628477149341</updated>
       <workItem from="1628477159957" duration="134000" />
+      <workItem from="1628732171062" duration="1226000" />
     </task>
     <servers />
   </component>
@@ -65,6 +60,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
