@@ -1,20 +1,26 @@
+package JUnit;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class test {
+/**
+ * bước 1: dùng WebElement tìm đến Element iframe
+ * bước 2: switch to frame
+ * chú ý: không truyền trực tiếp xpath vô frame() -> sẽ không tìm được
+ */
+public class iframe_WebElement {
     WebDriver driver;
     String url;
 
-    @BeforeMethod
-    public void setUp() {
+    @BeforeEach
+    void setUp() {
         driver = new ChromeDriver();
         url = "https://jqueryui.com/datepicker/";
         driver.manage().window().maximize();
@@ -22,7 +28,7 @@ public class test {
     }
 
     @Test
-    public void test() throws InterruptedException {
+    void testFrame() throws InterruptedException {
         driver.get(url);
         Thread.sleep(3000);
         int size = driver.findElements(By.tagName("iframe")).size();
@@ -36,9 +42,9 @@ public class test {
         Thread.sleep(3000);
     }
 
-
-    @AfterMethod
-    public void tearDown() {
+    @AfterEach
+    void tearDown() throws InterruptedException {
+        Thread.sleep(3000);
         driver.quit();
     }
 }
