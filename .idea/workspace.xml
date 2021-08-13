@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86ea4f5b-c657-4f74-a919-e001e33de510" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_Tutorial/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Tutorial/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_Tutorial/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Tutorial/src/test/java/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_Tutorial/target/classes/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG_Tutorial/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG_Tutorial/target/test-classes/test.class" afterDir="false" />
-    </list>
+    <list default="true" id="86ea4f5b-c657-4f74-a919-e001e33de510" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +81,7 @@
       <workItem from="1628732171062" duration="1226000" />
       <workItem from="1628738929090" duration="607000" />
       <workItem from="1628824847305" duration="632000" />
-      <workItem from="1628827821052" duration="2172000" />
+      <workItem from="1628827821052" duration="2279000" />
     </task>
     <servers />
   </component>
