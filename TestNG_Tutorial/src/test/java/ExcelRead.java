@@ -30,7 +30,7 @@ public class ExcelRead {
             workbook = new XSSFWorkbook(excelFile);                  //Step 5:  worksheet
             sheet = workbook.getSheet(sheetName);                    //Step 6:  .getSheet(..) : đọc sheet
             cell = sheet.getRow(2).getCell(1);       //Step 7: .getRow(..) lấy hàng ngang, .getCell(..) lấy giá trị thứ n trong hàng
-            String cellData = cell.getStringCellValue();             //Step 8: .getStringCellValue(), lấy data từ step 7
+            String cellData = cell.getStringCellValue();            //Step 8: .getStringCellValue(), lấy data từ step 7
             System.out.println("cell data: " + cellData);
         } catch (IOException e) {
             e.printStackTrace();
