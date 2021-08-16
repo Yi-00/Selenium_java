@@ -6,13 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pageObjectModel" />
-        <module name="TestNG" />
+        <module name="OCG" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="pageObjectModel" target="11" />
-      <module name="TestNG" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
