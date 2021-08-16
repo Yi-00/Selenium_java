@@ -27,8 +27,8 @@ public class ExcelRead {
         //nếu không tìm được file thì bắt exception
         try {
             FileInputStream excelFile = new FileInputStream(path);   //step 4: đường dẫn đến excel file
-            workbook = new XSSFWorkbook(excelFile);                  //Step 5:  worksheet
-            sheet = workbook.getSheet(sheetName);                    //Step 6:  .getSheet(..) : đọc sheet
+            workbook = new XSSFWorkbook(excelFile);                  //Step 5:  open excel file ( open workbook )
+            sheet = workbook.getSheet(sheetName);                    //Step 6:  .getSheet(..) : open sheet
             cell = sheet.getRow(2).getCell(1);       //Step 7: .getRow(..) lấy hàng ngang, .getCell(..) lấy giá trị thứ n trong hàng
             String cellData = cell.getStringCellValue();            //Step 8: .getStringCellValue(), lấy data từ step 7
             System.out.println("cell data: " + cellData);
