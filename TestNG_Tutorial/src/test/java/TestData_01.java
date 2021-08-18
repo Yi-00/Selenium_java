@@ -1,6 +1,6 @@
 import org.testng.annotations.DataProvider;
 
-public class TestData {
+public class TestData_01 {
     @DataProvider(name="inputs")
     public Object[][] getData(){
         return new Object[][]{

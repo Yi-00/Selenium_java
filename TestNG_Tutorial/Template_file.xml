@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<!--Đây là file template demo-->
+<!--Đây là file template DataProviders_02-->
 
 <!--Tên suite: tùy ý đặt-->
-<suite name="Group demo">
+<suite name="Group DataProviders_02">
     <!--Tên test: tùy ý đặt-->
     <test name="transfer">
         <groups>
