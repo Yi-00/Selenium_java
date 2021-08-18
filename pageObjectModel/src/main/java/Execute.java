@@ -22,7 +22,5 @@ public class Execute {
     public static void clickLogin(WebDriver driver, String xpath){
         element = getElement(driver, xpath);
         element.click();
-
     }
-
 }
