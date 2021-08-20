@@ -1,6 +1,6 @@
 import org.testng.annotations.DataProvider;
 
-public class TestData_02 {
+public class DataLogin {
     @DataProvider(name = "login")
     public Object[][] getData(){
         return new Object[][]{

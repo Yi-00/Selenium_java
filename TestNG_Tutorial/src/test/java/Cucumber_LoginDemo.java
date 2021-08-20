@@ -4,7 +4,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class DataProviders_02 extends Actions {
+public class Cucumber_LoginDemo extends Actions {
    WebDriver driver;
    String url = "https://opensource-demo.orangehrmlive.com/";
 
@@ -13,7 +13,7 @@ public class DataProviders_02 extends Actions {
      driver = new ChromeDriver();
     }
 
-    @Test(dataProvider = "login", dataProviderClass = TestData_02.class)
+    @Test(dataProvider = "login", dataProviderClass = DataLogin.class)
     public void test(String uname, String pwd){
      driver.get(url);
 
