@@ -30,4 +30,10 @@ public class Actions {
         element = getElement(driver, xpath);
         element.click();
     }
+
+    public static void switchToIframe(WebDriver driver, String xpath){
+        waitElement(driver, xpath);
+        element= getElement(driver, xpath);
+        driver.switchTo().frame(element);
+    }
 }

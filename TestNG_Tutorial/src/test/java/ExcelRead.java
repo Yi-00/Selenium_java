@@ -18,7 +18,7 @@ public class ExcelRead {
         XSSFCell cell;                  //Nhận biết oo trong bảng của excel file
 
         //Step 2: đường dẫn đến excel file
-        String path = "C:\\QA\\Selenium_java\\TestNG_Tutorial\\src\\main\\resources\\ReadDataDemo.xlsx";
+        String path = "C:\\QA\\Selenium_java\\TestNG_Tutorial\\src\\main\\resources\\Data\\ReadDataDemo.xlsx";
 
         //Step 3: tên Sheet sẽ đọc
         String sheetName = "Sheet1";
