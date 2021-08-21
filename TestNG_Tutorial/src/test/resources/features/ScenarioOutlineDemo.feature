@@ -16,4 +16,4 @@ Feature: Login
     Given The following users exists
       | Name | Email          | Twitter |
       | John | John@gmail.com | @John   |
-      | Tom  | Tom@gamil.com  | @Tom    |
+      | Tom  | Tom@gmail.com  | @Tom    |
