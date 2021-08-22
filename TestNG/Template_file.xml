@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--Đây là file template Cucumber_LoginDemo-->
+
+<!--Tên suite: tùy ý đặt-->
+<suite name="Group Cucumber_LoginDemo">
+    <!--Tên test: tùy ý đặt-->
+    <test name="transfer">
+        <groups>
+            <run>
+                <!--Tên group muốn chạy group-->
+                <include name="cars"></include>
+            </run>
+        </groups>
+        <classes>
+            <!--Vị trí Class-->
+            <class name="TestNG_Group"/>
+        </classes>
+    </test>
+
+</suite>

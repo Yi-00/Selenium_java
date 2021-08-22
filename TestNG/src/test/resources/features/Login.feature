@@ -19,5 +19,3 @@ Feature: Login
     When I click Login button
     Then I can't visit home page
     And Get an error message
-
-
