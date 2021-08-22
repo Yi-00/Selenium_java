@@ -3,12 +3,9 @@ package stepdefination;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.concurrent.TimeUnit;
 
 public class LoginTest extends MyActions {
     WebDriver driver;
@@ -35,7 +32,7 @@ public class LoginTest extends MyActions {
     }
     @Then("User can visit home page")
     public void user_can_visit_home_page() {
-        //Nếu login thành công mới tìm thấy element kia
+        //Nếu login thành công mới tìm thấy element bên dưới
         getElement(driver, "//a[@id='menu_admin_viewAdminModule']");
     }
 
