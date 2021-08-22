@@ -10,9 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 
-//@RunWith(Cucumber.class)
-//@CucumberOptions
-public class Cucumber_LoginDemo extends Actions {
+public class Login_DataProvider extends Actions {
    WebDriver driver;
    String url = "https://opensource-demo.orangehrmlive.com/";
 

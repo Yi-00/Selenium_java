@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<!--Đây là file template Cucumber_LoginDemo-->
+<!--Đây là file template Login_DataProvider-->
 
 <!--Tên suite: tùy ý đặt-->
-<suite name="Group Cucumber_LoginDemo">
+<suite name="Group Login_DataProvider">
     <!--Tên test: tùy ý đặt-->
     <test name="transfer">
         <groups>
