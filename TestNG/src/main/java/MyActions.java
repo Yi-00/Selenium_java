@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Actions {
+public class MyActions {
     public static WebElement element;
 
     public static void waitElement(WebDriver driver, String xpath){

@@ -1,21 +1,18 @@
 Feature: Login
-  Login should be successfully
-  This is description...
-  This is description...
+  Login successful
 
-  Background: Open Website
-    Given Load URL
-    And User is on Login Page
 
   Scenario: Login with valid credentials
-    When I enters UserName
-    And I enter Password
-    And I click Login button
-    Then I can visit home page
+    Given User is on Login Page
+    When User enter valid username
+    And User enter valid password
+    And User click on Login button
+    Then User can visit home page
 
-  Example: Login With invalid credentials
-    When I enters UserName
-    When I enter Password
-    When I click Login button
-    Then I can't visit home page
-    And Get an error message
+  Scenario: Login with invalid credentials
+    Given User is on Login Page
+    When User enter invalid username
+    And User enter valid password
+    And User click on Login button
+    Then User can't visit home page
+    And Display an error message
