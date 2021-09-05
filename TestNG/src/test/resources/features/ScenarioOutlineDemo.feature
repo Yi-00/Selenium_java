@@ -3,8 +3,8 @@ Feature: Login
   Scenario Outline: Login with  invalid credentials
 
     Given Load URL
-    When I enter invalid <username> in username textbox
-    And I enter invalid <password> in password textbox
+    When I enter invalid "<username>" in username textbox
+    And I enter invalid "<password>" in password textbox
     And I click on login in button
     Then I can see Home page
     Examples:
