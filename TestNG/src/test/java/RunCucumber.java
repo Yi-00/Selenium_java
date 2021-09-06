@@ -7,5 +7,5 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/Login.feature",
         glue = {"stepdefination"}
 )
-public class TestRunCucumber {
+public class RunCucumber {
 }

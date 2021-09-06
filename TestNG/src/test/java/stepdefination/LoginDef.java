@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class LoginTest {
+public class LoginDef {
     WebDriver driver;
     String url = "https://opensource-demo.orangehrmlive.com/";
 
