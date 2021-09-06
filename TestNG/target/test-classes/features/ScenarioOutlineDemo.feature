@@ -1,14 +1,12 @@
 Feature: Login
-
   Scenario Outline: Login with  invalid credentials
-
-    Given Load URL
+    Given User is on Login Page "<url>"
     When user input "<username>" And "<password>"
-    And user click on login button
+    And user click on Login button
     Examples:
-      | username | password |
-      | Admin1   | admin123 |
-      | Admin    | admin123 |
+      | url                                   | username                | password        |
+      | https://accounts.shopbase.com/sign-in | shopbase1@beeketing.net | dw9^            |
+      | https://accounts.shopbase.com/sign-in | shopbase1@beeketing.net | dw9^12Hm[!p^mD% |
 
 #  Scenario: DataTable Example
 #    Given The following users exists
