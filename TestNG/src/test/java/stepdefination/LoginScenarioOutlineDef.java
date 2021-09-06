@@ -30,8 +30,9 @@ public class LoginScenarioOutlineDef{
         pwdEle.sendKeys(password);
     }
 
-    @And("user click on login button")
-    public void user_click_on_login_button() {
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
+    @And("user click on Login button")
+    public void userClickOnLoginButton() {
+        WebElement loginEle = driver.findElement(By.xpath("//button[@type='submit']"));
+        loginEle.click();
     }
 }

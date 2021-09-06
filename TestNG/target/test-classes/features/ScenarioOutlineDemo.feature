@@ -1,5 +1,5 @@
 Feature: Login
-  Scenario Outline: Login with  invalid credentials
+  Scenario Outline: Shopbase Login
     Given User is on Login Page "<url>"
     When user input "<username>" And "<password>"
     And user click on Login button
